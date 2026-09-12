@@ -18,7 +18,7 @@
 #'@importFrom utils packageName
 
 run_glm <- function(sim_folder = ".", nml_file = "glm4.nml", verbose = TRUE,
-                    system.args=character()){
+                    system.args = character()){
   # Check for nml file in sim_folder
   if(!(nml_file %in% list.files(sim_folder))){
     stop("You must have a valid .nml file in your sim_folder: ", sim_folder)
