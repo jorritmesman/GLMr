@@ -84,19 +84,19 @@ glm.systemcall <- function(sim_folder, glm_path, verbose, system.args){
 
 ### Windows ###
 run_glmWin <- function(sim_folder, verbose, system.args){
-  glm_path <- system.file("exec/windows/glm.exe", package=packageName())
+  glm_path <- system.file("extbin/windows/glm.exe", package = packageName())
   glm.systemcall(sim_folder, glm_path, verbose, system.args)
 }
 
 # ### macOS ###
 # run_glmOSx <- function(sim_folder, verbose, system.args){
-#   glm_path <- system.file("exec/macglm3", package = "GLM3r")
+#   glm_path <- system.file("extbin/macglm3", package = packageName())
 #   glm.systemcall(sim_folder = sim_folder, glm_path = glm_path, verbose = verbose, system.args = system.args)
 # }
 # 
 # ### Linux ###
 # run_glmNIX <- function(sim_folder, verbose, system.args){
-#   glm_path <- system.file("exec/glm", package=packageName())
+#   glm_path <- system.file("extbin/glm", package = packageName())
 #   
 #   Sys.setenv(LD_LIBRARY_PATH=paste(system.file("extbin/nixGLM", 
 #                                                package=packageName()), 
