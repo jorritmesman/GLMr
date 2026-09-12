@@ -1,0 +1,18 @@
+Package: GLMr
+Type: Package
+Title: Work with GLM in R
+Version: 1.0.0
+Authors@R: c(person("Jorrit", "Mesman", role = c("aut","cre"),
+    email = "jorrit.mesman@ebc.uu.se"),
+    person("Robert", "Ladwig", role = c("aut","cre"),
+    email = "rladwig@ecos.au.dk"), 
+    person("Kamilla", "Kurucz", role = c("aut","cre"), 
+    email = "kamilla.kurucz@research.uwa.edu.au"),
+    person("Taynara", "Fernandes", role = c("aut","cre"), 
+    email = "taynara.fernandes@ufz.de"))
+Maintainer: Jorrit Mesman <jorrit.mesman@ebc.uu.se>
+Description: Run GLM (General Lake Model) with R. Comes with a compiled version of GLM and example files.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
